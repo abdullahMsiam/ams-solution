@@ -41,16 +41,40 @@
                         </li>
 
                     </ul>
-                    <button class="btn btn-outline-warning primary-color" type="submit">Free Consultation</button>
+                    <button class="btn btn-outline-warning primary-color" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Free Consultation</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">A modal for this web</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Its a simple Modal for practice</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-outline-warning primary-color">Save
+                                        changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </nav>
         <!-- banner section start  -->
         <section class="container mt-5">
-            <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white img-fluid"
+            <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white img-fluid "
                 style="background-image: url(images/banner.png);">
                 <div>
-                    <h1 class="mb-3 h1 fw-bold">We Provide Effective <br> Legal Solutions</h1>
+                    <h1 class="mb-3 h1 fw-bold mt-5">We Provide Effective <br> Legal Solutions</h1>
 
                     <p>
                         We offer a service to you for the manage you court problem. We serve you in online with a legal
@@ -59,12 +83,12 @@
                         lawyer
                         if you want. We are thankful to you.
                     </p>
-                    <nav class="navbar">
+                    <nav class="navbar mt-5">
                         <div class="container-fluid d-flex justify-content-center">
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search Your Service"
                                     aria-label="Search">
-                                <button class="btn btn-outline-warning primary-color" type="submit">Search</button>
+                                <button class="btn btn-outline-warning primary-color p-2" type="submit">Search</button>
                             </form>
                         </div>
                     </nav>
